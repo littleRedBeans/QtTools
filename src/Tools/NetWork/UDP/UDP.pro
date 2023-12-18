@@ -21,3 +21,5 @@ unix {
     target.path = /usr/lib
 }
 !isEmpty(target.path): INSTALLS += target
+
+include($$PWD/QEventdispatcherLibuv/QEventdispatcherLibuv.pri)
